@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-  /* background: #f5deb3; */
 }
 
 header {
   display: flex;
   padding: 0 16px;
+  background: #f5deb3;
 }
 
 header h1 {
@@ -48,6 +48,7 @@ main {
   opacity: 0;
   pointer-events: none;
   transition: opacity .6s;
+  z-index: 99999;
 }
 
 .overlay h1 {
@@ -103,6 +104,19 @@ main {
   transition-delay: .4s;
 }
 
+.overlay li a {
+  text-decoration:none;
+}
+
+.overlay nav > footer {
+  position: absolute;
+  height: 80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #efefef;
+}
+
 
 /* PCメニュー */
 .pc-menu {
@@ -134,6 +148,7 @@ main {
   justify-content: space-between;
 }
 
+
 /* コンテンツ */
 .container {
   display: flex;
@@ -143,6 +158,8 @@ main {
   width: 100px;
   margin: 16px 8px;
   text-align: center;
+  background: #f2f2f2;
+  border-radius: 4px;
 }
 
 .nav p {
@@ -159,15 +176,152 @@ main {
   padding: 0;
 }
 
+.game p {
+  font-size: 12px;
+  margin: 16px 0 0 0;
+  font-weight: bold;
+}
+
+.game ul {
+  /* list-style: none; */
+  margin: 8px 0;
+  padding: 0;
+}
+
+.game a {
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration:none;
+}
+
 .main {
   flex: 1;
   margin: 16px 8px;
+}
+
+.main .contents {
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+
+/* 目次 */
+.contents {
+  background: #efefef;
+}
+
+.contents .contents-p {
+  display: flex;
+  margin: 0;
+  user-select: none;
+}
+
+.contents-p p {
+  margin: 4px;
+}
+
+#contents-open,
+#contents-close {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.contents #contents-open {
+  display: none;
+}
+
+#contents-open.active {
+  display: block;
+}
+
+.contents #contents-close {
+  display: none;
+}
+
+#contents-close.active {
+  display: block;
+}
+
+#contents-ul.active {
+  display: block;
+}
+
+#contents-ul {
+  display: none;
+  margin: 8px;
+  padding: 0;
+  user-select: none;
+  list-style: none;
+}
+
+#contents-ul ol {
+  margin: 0 0 0 8px;
+  padding: 0 0 0 16px;
+  user-select: none;
+  list-style: none;
+}
+
+#contents-ul a {
+  text-decoration:none
+}
+
+
+.main h2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.main h3 {
+  text-align: center;
 }
 
 .aside {
   width: 200px;
   display: none;
   text-align: center;
+}
+
+
+/* フッター */
+footer {
+  text-align: center;
+  max-height: auto;
+  background: #efefef;;
+}
+
+footer .footer-menu {
+  display: flex;
+}
+
+footer .footer-menu-item {
+  margin: auto;
+}
+
+.footer-menu-item p {
+  margin: 8px 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.footer-menu ul {
+  list-style: none;
+  font-size: 14px;
+  margin: auto;
+  padding: 0;
+}
+
+.footer-menu a {
+  color: #a0a0a0;
+  text-decoration:none;
+}
+
+footer p {
+  font-size: 12px;
+  color: gray;
+}
+
+.footer-copylight {
+  margin: 8px 8px 0 8px;
 }
 
 
@@ -209,6 +363,15 @@ main {
   /* 3カラム表示 */
   .nav {
     width: 200px;
+  }
+
+  .game p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .game a {
+    font-size: 14px;
   }
 
   .aside {
