@@ -1,0 +1,49 @@
+/* カード */
+.card {
+  margin: 30px auto;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.card-link {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+
+.card-link a {
+  color: black;
+}
+
+.card-link i {
+  margin: 0 16px;
+}
+
+
+/* レスポンシブ化 */
+@media (min-width: 800px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
