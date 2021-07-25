@@ -9,9 +9,9 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Site</title>
+  <link rel=”icon” href=“img/favicon.ico”>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/contact.css">
   <!-- スライドショー用 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -115,17 +115,29 @@
       </div>
     </div>
     <div class="main">
-      <p class="attention">※現在は送信してもお問い合わせすることができません。</p>
-      <form action="" method="POST">
-        <p>名前</p>
-        <input type="text" placeholder="name" required="required">
-        <p>メールアドレス</p>
-        <input type="mail" placeholder="mail" required="required">
-        <p>お問い合わせ内容</p>
-        <textarea type="text" placeholder="message" required="required"></textarea>
-
-        <input type="submit" value="送信">
-      </form>
+      <!-- 目次 -->
+      <div class="contents" id="contents">
+        <div class="contents-p">
+          <p>目次</p>
+          <p class="active" id="contents-open">[表示]</p>
+          <p id="contents-close">[非表示]</p>
+        </div>
+        <ul class="active" id="contents-ul">
+          <li><a href="#site-summary">1.サイト概要</a></li>
+          <li><a href="#game-intruduce">2.ゲーム紹介</a></li>
+            <ol>
+              <li><a href="#game-intruduce-apex">2-1.APEX Legends</a></li>
+              <li><a href="#game-intruduce-spla">2-2.スプラトゥーン2</a></li>
+              <li><a href="#game-intruduce-acnh">2-3.あつまれどうぶつの森</a></li>
+              <li><a href="#game-intruduce-au">2-4.Among Us</a></li>
+            </ol>
+          <li><a href="#">3.ゲーム紹介</a></li>
+          <li><a href="#">4.ゲーム紹介</a></li>
+        </ul>
+      </div>
+      <h2 id="site-apex">最新情報</h2>
+      <p>APEX LegendsはEAという企業がリリースしているFPSゲームです。PC・PS4・PS5・Switchと幅広い機器でプレイすることができます！</p>
+      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
     </div>
     <div class="aside">
       asideメニュー
