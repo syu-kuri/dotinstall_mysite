@@ -3,32 +3,21 @@
 <head>
   <meta charset="utf-8">
   <!-- 説明文等 -->
-  <meta name="description" content="ゲーマー大学生がプレイしているゲームについて紹介しているサイトです！！">
-  <meta name="keywords" content="ゲーマー,ゲーム,ゲーム紹介">
+  <meta name="description" content="最新＆おしゃれな愛媛･香川のグルメを配信中！！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！">
+  <meta name="keywords" content="愛媛県,香川県,おしゃれなお店,カフェ,cafe">
   <meta http-equiv="content-language" content="ja">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Site</title>
+  <title>おかわりくん</title>
   <link rel=”icon” href=“img/favicon.ico”>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <!-- スライドショー用 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <script type="text/javascript">
-          $(document).ready(function(){
-              $('.slider').bxSlider({
-                  auto: true,
-                  pause: 10000,
-              });
-          });
-  </script>
+  <link rel="stylesheet" href="css/introduce.css">
 </head>
 <body>
   <header>
     <div class="logo">
-      <h1>ゲーム紹介サイト</h1>
+      <h1>okawarikun_cafe</h1>
     </div>
 
     <!-- ハンバーガーメニュー用アイコン -->
@@ -42,7 +31,7 @@
     <nav>
       <ul class="pc-menu-item">
         <li><a href="index.html" class="active" data-id="home">ホーム</a></li>
-        <li><a href="#" data-id="about">紹介ゲーム一覧</a></li>
+        <li><a href="#" data-id="about">店舗一覧</a></li>
         <li><a href="introduce.html" data-id="service">自己紹介</a></li>
         <li><a href="contact.html" data-id="contact">お問い合わせ</a></li>
       </ul>
@@ -52,11 +41,11 @@
   <!-- ハンバーガーメニュー -->
   <div class="overlay">
     <span class="material-icons" id="close">close</span>
-    <h1>ゲーム紹介<br>サイト</h1>
+    <h1>okawarikun<br>cafe</h1>
     <nav>
       <ul>
         <li><a href="index.html">ホーム</a></li>
-        <li><a href="#">紹介ゲーム一覧</a></li>
+        <li><a href="#">店舗一覧</a></li>
         <li><a href="introduce.html">自己紹介</a></li>
         <li><a href="contact.html">お問い合わせ</a></li>
       </ul>
@@ -66,54 +55,8 @@
     </nav>
   </div>
 
-  <!-- スライドショー -->
-  <div class="slider">
-    <img src="img/APEX1.jpg" alt="APEX Legendsの画像">
-    <img src="img/あつ森1.jpg" alt="あつまれどうぶつの森の画像">
-    <img src="img/スプラ1.jpg" alt="スプラトゥーン2の画像">
-    <img src="img/アマアス1.jpg" alt="Among Usの画像">
-  </div>
-
   <!-- コンテンツ -->
   <div class="container">
-    <div class="nav">
-      <div id="date">
-        <p class="date-title">本日</p>
-        <p id="nowDate"></p>
-      </div>
-      <div class="game">
-        <p>APEX Legends</p>
-        <ul>
-          <li><a href="apex.html">最新情報</a></li>
-          <li><a href="#">レジェンド</a></li>
-          <li><a href="#">武器</a></li>
-        </ul>
-      </div>
-      <div class="game">
-        <p>スプラトゥーン2</p>
-        <ul>
-          <li><a href="#">最新情報</a></li>
-          <li><a href="#">ウェポン</a></li>
-          <li><a href="#">ギア</a></li>
-        </ul>
-      </div>
-      <div class="game">
-        <p>あつまれ<br>どうぶつの森</p>
-        <ul>
-          <li><a href="#">最新情報</a></li>
-          <li><a href="#">住民</a></li>
-          <li><a href="#">家具</a></li>
-        </ul>
-      </div>
-      <div class="game">
-        <p>Among Us</p>
-        <ul>
-          <li><a href="#">最新情報</a></li>
-          <li><a href="#">マップ</a></li>
-          <li><a href="#">その他</a></li>
-        </ul>
-      </div>
-    </div>
     <div class="main">
       <!-- 目次 -->
       <div class="contents" id="contents">
@@ -124,30 +67,179 @@
         </div>
         <ul class="active" id="contents-ul">
           <li><a href="#site-summary">1.サイト概要</a></li>
-          <li><a href="#game-intruduce">2.ゲーム紹介</a></li>
+          <li><a href="#shop-intruduce">2.店舗紹介</a></li>
             <ol>
-              <li><a href="#game-intruduce-apex">2-1.APEX Legends</a></li>
-              <li><a href="#game-intruduce-spla">2-2.スプラトゥーン2</a></li>
-              <li><a href="#game-intruduce-acnh">2-3.あつまれどうぶつの森</a></li>
-              <li><a href="#game-intruduce-au">2-4.Among Us</a></li>
+              <li><a href="#cafeMANON">2-1.cafeMANON</a></li>
+              <li><a href="#tsukihaku">2-2.御料理月白</a></li>
+              <li><a href="#monikodo2">2-3.もにこど2</a></li>
+              <li><a href="#91funaki">2-4.91funaki</a></li>
+              <li><a href="#sorasito">2-4.そらしと珈琲</a></li>
             </ol>
-          <li><a href="#">3.ゲーム紹介</a></li>
-          <li><a href="#">4.ゲーム紹介</a></li>
         </ul>
       </div>
       <h2 id="site-summary">1.サイト概要</h2>
-      <p>このサイトでは、</p>
-      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
-      <h2 id="game-intruduce">2.ゲーム紹介</h2>
-      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
-      <h3 id="game-intruduce-apex">2-1.APEX Legends</h3>
-      <p>APEX LegendsはEAという企業がリリースしているFPSゲームです。PC・PS4・PS5・Switchと幅広い機器でプレイすることができます！</p>
-      <h3 id="game-intruduce-spla">2-2.スプラトゥーン2</h3>
-      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
-      <h3 id="game-intruduce-acnh">2-3.あつまれどうぶつの森</h3>
-      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
-      <h3 id="game-intruduce-au">2-4.Among Us</h3>
-      <p>こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。</p>
+      <p>最新＆おしゃれな愛媛･香川のグルメを配信中！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！</p>
+      <h2 id="shop-intruduce">2.店舗紹介</h2>
+      <section class="card" id="cafeMANON">
+        <img class="card-img" src="img/cafeMANON/S__59047953.jpg" alt="cafeMANON店の画像">
+        <div class="card-content">
+          <h1 class="card-title">cafeMANON</h1>
+          <p class="card-text">【松山×カフェ】</p>
+          <div class="card-contact">
+            <table>
+              <tbody>
+                <tr>
+                  <th><span class="material-icons">location_on</span></th>
+                  <td><p class="card-text">〒790-0011<br>愛媛県松山市千舟町４丁目１−９</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">access_time</span></th>
+                  <td><p class="card-text">営業時間 11:30～16:30</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">date_range</span></th>
+                  <td><p class="card-text">定休日 不定休</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">phone</span></th>
+                  <td><p class="card-text">089-950-4683</p></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="#">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="tsukihaku">
+        <img class="card-img" src="img/御料理月白/S__59047958.jpg" alt="御料理月白店の画像">
+        <div class="card-content">
+          <h1 class="card-title">御料理月白</h1>
+          <p class="card-text">【松山×ランチ】</p>
+          <div class="card-contact">
+            <table>
+              <tbody>
+                <tr>
+                  <th><span class="material-icons">location_on</span></th>
+                  <td><p class="card-text">〒791-8034<br>愛媛県松山市富久町４２２−３</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">access_time</span></th>
+                  <td><p class="card-text">営業時間 11:30～15:00</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">date_range</span></th>
+                  <td><p class="card-text">定休日 水曜日</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">phone</span></th>
+                  <td><p class="card-text">089-910-4915</p></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="#">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="monikodo2">
+        <img class="card-img" src="img/もにこど2/S__59047965.jpg" alt="もにこど2店の画像">
+        <div class="card-content">
+          <h1 class="card-title">もにこど2</h1>
+          <p class="card-text">【伊予×カフェ】</p>
+          <div class="card-contact">
+            <table>
+              <tbody>
+                <tr>
+                  <th><span class="material-icons">location_on</span></th>
+                  <td><p class="card-text">〒799-3104<br>愛媛県伊予市上三谷２１７３−１</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">access_time</span></th>
+                  <td><p class="card-text">営業時間 11:00～18:00</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">date_range</span></th>
+                  <td><p class="card-text">定休日 月･火</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">phone</span></th>
+                  <td><p class="card-text">089-982-7640</p></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="#">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="91funaki">
+        <img class="card-img" src="img/91funaki/S__59047977.jpg" alt="91funaki店の画像">
+        <div class="card-content">
+          <h1 class="card-title">91funaki</h1>
+          <p class="card-text">【新居浜×ランチ】</p>
+          <div class="card-contact">
+            <table>
+              <tbody>
+                <tr>
+                  <th><span class="material-icons">location_on</span></th>
+                  <td><p class="card-text">〒792-0856<br>愛媛県新居浜市船木２４５１</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">access_time</span></th>
+                  <td><p class="card-text">営業時間 11:00～21:00<br>※水曜日のみ11:00～17:00</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">date_range</span></th>
+                  <td><p class="card-text">定休日 木曜日</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">phone</span></th>
+                  <td><p class="card-text">0897-66-8960</p></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="#">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="sorasito">
+        <img class="card-img" src="img/そらしと珈琲/S__59047970.jpg" alt="そらしと珈琲店の画像">
+        <div class="card-content">
+          <h1 class="card-title">そらしと珈琲</h1>
+          <p class="card-text">【松山×ランチ】</p>
+          <div class="card-contact">
+            <table>
+              <tbody>
+                <tr>
+                  <th><span class="material-icons">location_on</span></th>
+                  <td><p class="card-text">〒791-8012<br>愛媛県松山市姫原３丁目１−３０</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">access_time</span></th>
+                  <td><p class="card-text">営業時間 09:00～23:00</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">date_range</span></th>
+                  <td><p class="card-text">定休日 木曜日</p></td>
+                </tr>
+                <tr>
+                  <th><span class="material-icons">phone</span></th>
+                  <td><p class="card-text">089-989-5509</p></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="#">この店舗を詳しく見る</a>
+        </div>
+      </section>
     </div>
     <div class="aside">
       asideメニュー
@@ -158,14 +250,14 @@
       <div class="footer-menu-item">
         <p>カテゴリー</p>
         <ul>
-          <li><a href="#">PCゲーム</a></li>
-          <li><a href="#">PS4・PS5</a></li>
-          <li><a href="#">Switch</a></li>
-          <li><a href="#">スマホアプリ</a></li>
+          <li><a href="#">愛媛県</a></li>
+          <li><a href="#">香川県</a></li>
+          <li><a href="#">カフェ</a></li>
+          <li><a href="#">ランチ</a></li>
         </ul>
       </div>
       <div class="footer-menu-item">
-        <p>その他コンテンツ</p>
+        <p>その他のコンテンツ</p>
         <ul>
           <li><a href="#">会社概要</a></li>
           <li><a href="#">採用情報</a></li>

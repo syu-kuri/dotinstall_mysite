@@ -11,6 +11,7 @@ header {
 
 header h1 {
   margin: 0;
+  text-align: center;
   font-size: 22px;
   line-height: 64px;
   transition: .3s;
@@ -53,6 +54,7 @@ main {
 
 .overlay h1 {
   margin: 0;
+  text-align: center;
   font-size: 22px;
   transition: opacity .3s, transform .3s;
 }
@@ -154,46 +156,6 @@ main {
   display: flex;
 }
 
-.nav {
-  width: 100px;
-  margin: 16px 8px;
-  text-align: center;
-  background: #f2f2f2;
-  border-radius: 4px;
-}
-
-.nav p {
-  text-align: center;
-}
-
-.nav .date-title {
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.nav #nowDate {
-  margin: 0;
-  padding: 0;
-}
-
-.game p {
-  font-size: 12px;
-  margin: 16px 0 0 0;
-  font-weight: bold;
-}
-
-.game ul {
-  /* list-style: none; */
-  margin: 8px 0;
-  padding: 0;
-}
-
-.game a {
-  font-size: 12px;
-  cursor: pointer;
-  text-decoration:none;
-}
-
 .main {
   flex: 1;
   margin: 16px 8px;
@@ -208,6 +170,7 @@ main {
 /* 目次 */
 .contents {
   background: #efefef;
+  width: 100%;
 }
 
 .contents .contents-p {
@@ -269,6 +232,7 @@ main {
 .main h2 {
   font-size: 22px;
   text-align: center;
+  width: 100%;
 }
 
 .main h3 {
@@ -331,6 +295,7 @@ footer p {
   /* PCメニュー */
   header h1 {
     font-size: 32px;
+    text-align: center;
     transition: .3s;
   }
 
@@ -377,5 +342,6 @@ footer p {
 
   .aside {
     display: block;
+    width: 250px;
   }
 }

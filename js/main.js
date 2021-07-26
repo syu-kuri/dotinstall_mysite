@@ -16,19 +16,6 @@
     open.classList.remove('hide');
   });
 
-  // 日付表示
-  function NowDate() {
-    const today = new Date();
-    let year = today.getFullYear();
-    let month = today.getMonth();
-    let day = today.getDate();
-
-    return `${year}/${month+1}/${day}`;
-  }
-
-  const nowDate = document.getElementById('nowDate');
-  nowDate.insertAdjacentHTML('afterend', NowDate());
-
   // 目次表示切り替え
   const contentsOpen = document.getElementById('contents-open');
   const contentsClose = document.getElementById('contents-close');

@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <!-- 説明文等 -->
-  <meta name="description" content="ゲーマー大学生がプレイしているゲームについて紹介しているサイトです！！">
-  <meta name="keywords" content="ゲーマー,ゲーム,ゲーム紹介">
+  <meta name="description" content="最新＆おしゃれな愛媛･香川のグルメを配信中！！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！">
+  <meta name="keywords" content="愛媛県,香川県,おしゃれなお店,カフェ,cafe">
   <meta http-equiv="content-language" content="ja">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Site</title>
+  <title>おかわりくん</title>
+  <link rel=”icon” href=“img/favicon.ico”>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <header>
     <div class="logo">
-      <h1>ゲーム紹介サイト</h1>
+      <h1>okawarikun_cafe</h1>
     </div>
 
     <!-- ハンバーガーメニュー用アイコン -->
@@ -57,20 +57,25 @@
   <!-- コンテンツ -->
   <div class="container">
     <div class="main">
-      <h2>お問い合わせフォーム</h2>
-      <p class="attention">※現在は送信してもお問い合わせすることができません。</p>
-      <form action="" method="POST">
-        <p>姓</p>
-        <input type="text" placeholder="last name" required="required">
-        <p>名</p>
-        <input type="text" placeholder="fast name" required="required">
-        <p>メールアドレス</p>
-        <input type="mail" placeholder="mail" required="required">
-        <p>お問い合わせ内容</p>
-        <textarea type="text" placeholder="message" required="required"></textarea>
-        <input type="submit" value="送信">
-      </form>
-    </div>
+      <!-- 目次 -->
+      <div class="contents" id="contents">
+        <div class="contents-p">
+          <p>目次</p>
+          <p class="active" id="contents-open">[表示]</p>
+          <p id="contents-close">[非表示]</p>
+        </div>
+        <ul class="active" id="contents-ul">
+          <li><a href="#site-summary">1.サイト概要</a></li>
+          <li><a href="#shop-intruduce">2.店舗紹介</a></li>
+            <ol>
+              <li><a href="#cafeMANON">2-1.cafeMANON</a></li>
+              <li><a href="#tsukihaku">2-2.御料理月白</a></li>
+              <li><a href="#monikodo2">2-3.もにこど2</a></li>
+              <li><a href="#91funaki">2-4.91funaki</a></li>
+              <li><a href="#sorasito">2-4.そらしと珈琲</a></li>
+            </ol>
+        </ul>
+      </div>
     <div class="aside">
       asideメニュー
     </div>
