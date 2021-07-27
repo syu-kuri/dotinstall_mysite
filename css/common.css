@@ -6,7 +6,7 @@ body {
 header {
   display: flex;
   padding: 0 16px;
-  background: #f5deb3;
+  background: #00bfff;
 }
 
 header h1 {
@@ -49,7 +49,6 @@ main {
   opacity: 0;
   pointer-events: none;
   transition: opacity .6s;
-  z-index: 99999;
 }
 
 .overlay h1 {
@@ -106,6 +105,14 @@ main {
   transition-delay: .4s;
 }
 
+.overlay.active li:nth-child(5) {
+  transition-delay: .5s;
+}
+
+.my-color {
+  color: black;
+}
+
 .overlay li a {
   text-decoration:none;
 }
@@ -126,7 +133,6 @@ main {
   margin: 10px auto;
   width: 100%;
   border-bottom: 2px solid;
-  /* background: skyblue; */
 }
 
 .pc-menu-item {
@@ -159,6 +165,10 @@ main {
 .main {
   flex: 1;
   margin: 16px 8px;
+}
+
+.summary-text {
+  margin: auto;
 }
 
 .main .contents {
@@ -240,6 +250,7 @@ main {
 }
 
 .aside {
+  padding: 8px;
   width: 200px;
   display: none;
   text-align: center;
@@ -249,9 +260,8 @@ main {
 /* フッター */
 footer {
   text-align: center;
-  max-height: auto;
-  background: #efefef;;
-  padding: 16px;
+  height: auto;
+  background: #efefef;
 }
 
 footer .footer-menu {
@@ -283,6 +293,7 @@ footer .footer-menu-item {
 footer p {
   font-size: 12px;
   color: gray;
+  padding: 16px;
 }
 
 .footer-copylight {
@@ -327,19 +338,6 @@ footer p {
   }
 
   /* 3カラム表示 */
-  .nav {
-    width: 200px;
-  }
-
-  .game p {
-    font-size: 14px;
-    font-weight: bold;
-  }
-
-  .game a {
-    font-size: 14px;
-  }
-
   .aside {
     display: block;
     width: 250px;

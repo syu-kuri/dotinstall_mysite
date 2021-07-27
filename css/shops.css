@@ -1,0 +1,64 @@
+.main {
+  text-align: center;
+}
+.main h1 {
+  font-size: 24px;
+}
+
+.shop_img img {
+  width: 85%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+/* テーブル */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 8px auto;
+  text-align: center;
+}
+th, td {
+  border: solid 1px #333;
+  padding: 8px;
+}
+
+/* マップ */
+.main-mapName {
+  margin-bottom: 0;
+  display: block;
+}
+.map-main {
+  margin: 8px auto;
+  width: 90%;
+  height: 300px;
+}
+.aside-mapName {
+  margin-bottom: 0;
+  display: none;
+}
+.map-aside {
+  margin: 8px auto;
+  width: 90%;
+  height: 300px;
+  display: none;
+}
+
+
+@media (min-width: 600px) {
+  .shop_img img {
+    width: 50%;
+    height: 500px;
+  }
+  table {
+    width: 70%;
+  }
+  .main-mapName,
+  .map-main {
+    display: none;
+  }
+  .aside-mapName,
+  .map-aside {
+    display: block;
+  }
+}

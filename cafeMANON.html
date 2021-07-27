@@ -9,9 +9,9 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>おかわりくん</title>
-  <link rel=”icon” href=“img/favicon.ico”>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/shops.css">
 </head>
 <body>
   <header>
@@ -40,7 +40,7 @@
   <!-- ハンバーガーメニュー -->
   <div class="overlay">
     <span class="material-icons" id="close">close</span>
-    <h1>ゲーム紹介<br>サイト</h1>
+    <h1>okawarikun<br>cafe</h1>
     <nav>
       <ul>
         <li><a href="index.html">ホーム</a></li>
@@ -49,7 +49,7 @@
         <li><a href="contact.html">お問い合わせ</a></li>
       </ul>
       <footer>
-        <p>Copyright (C) gameapp introduce</p>
+        <p>Copyright (C) okawarikun_cafe</p>
       </footer>
     </nav>
   </div>
@@ -57,27 +57,35 @@
   <!-- コンテンツ -->
   <div class="container">
     <div class="main">
-      <!-- 目次 -->
-      <div class="contents" id="contents">
-        <div class="contents-p">
-          <p>目次</p>
-          <p class="active" id="contents-open">[表示]</p>
-          <p id="contents-close">[非表示]</p>
-        </div>
-        <ul class="active" id="contents-ul">
-          <li><a href="#site-summary">1.サイト概要</a></li>
-          <li><a href="#shop-intruduce">2.店舗紹介</a></li>
-            <ol>
-              <li><a href="#cafeMANON">2-1.cafeMANON</a></li>
-              <li><a href="#tsukihaku">2-2.御料理月白</a></li>
-              <li><a href="#monikodo2">2-3.もにこど2</a></li>
-              <li><a href="#91funaki">2-4.91funaki</a></li>
-              <li><a href="#sorasito">2-4.そらしと珈琲</a></li>
-            </ol>
-        </ul>
+      <h1>cafeMANON</h1>
+      <div class="shop_img">
+        <img src="img/cafeMANON/S__59047953.jpg">
       </div>
+      <h3>店舗情報</h3>
+      <table>
+          <tr>
+            <th>店舗住所</th>
+            <td>〒790-0011<br>愛媛県松山市千舟町４丁目１−９</td>
+          </tr>
+          <tr>
+            <th>営業時間</th>
+            <td>11:30～16:30</td>
+          </tr>
+          <tr>
+            <th>定休日</th>
+            <td>不定休</td>
+          </tr>
+          <tr>
+            <th>電話番号</th>
+            <td><a href="tel:089-950-4683">089-950-4683</a></td>
+          </tr>
+      </table>
+      <h3 class="main-mapName">店舗の場所</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.0608775845067!2d132.76398855434124!3d33.838385652686135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe5b1ee48d4e5%3A0x2f54f8616f20431c!2z44Kr44OV44KnIOODnuODjuODsw!5e0!3m2!1sja!2sjp!4v1627372979951!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" class="map-main"></iframe>
+    </div>
     <div class="aside">
-      asideメニュー
+      <h3 class="aside-mapName">店舗の場所</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.0608775845067!2d132.76398855434124!3d33.838385652686135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe5b1ee48d4e5%3A0x2f54f8616f20431c!2z44Kr44OV44KnIOODnuODjuODsw!5e0!3m2!1sja!2sjp!4v1627372979951!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" class="map-aside"></iframe>
     </div>
   </div>
   <footer>
@@ -85,10 +93,10 @@
       <div class="footer-menu-item">
         <p>カテゴリー</p>
         <ul>
-          <li><a href="#">PCゲーム</a></li>
-          <li><a href="#">PS4・PS5</a></li>
-          <li><a href="#">Switch</a></li>
-          <li><a href="#">スマホアプリ</a></li>
+          <li><a href="#">愛媛県</a></li>
+          <li><a href="#">香川県</a></li>
+          <li><a href="#">カフェ</a></li>
+          <li><a href="#">ランチ</a></li>
         </ul>
       </div>
       <div class="footer-menu-item">
@@ -105,7 +113,7 @@
         </ul>
       </div>
     </div>
-    <p class="footer-copylight">Copyright (C) gameapp introduce</p>
+    <p class="footer-copylight">Copyright (C) okawarikun_cafe</p>
   </footer>
 
   <script src="js/main.js"></script>

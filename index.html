@@ -11,8 +11,9 @@
   <title>おかわりくん</title>
   <link rel=”icon” href=“img/favicon.ico”>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/introduce.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/card.css">
 </head>
 <body>
   <header>
@@ -48,9 +49,10 @@
         <li><a href="#">店舗一覧</a></li>
         <li><a href="introduce.html">自己紹介</a></li>
         <li><a href="contact.html">お問い合わせ</a></li>
+        <li class="overlay-sns"><a href="https://www.instagram.com/okawarikun__cafe/"><i class="fab fa-instagram fa-2x my-color"></i></a></li>
       </ul>
       <footer>
-        <p>Copyright (C) gameapp introduce</p>
+        <p>Copyright (C) okawarikun_cafe</p>
       </footer>
     </nav>
   </div>
@@ -78,38 +80,20 @@
         </ul>
       </div>
       <h2 id="site-summary">1.サイト概要</h2>
-      <p>最新＆おしゃれな愛媛･香川のグルメを配信中！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！</p>
+      <p class="summary-text">最新＆おしゃれな愛媛･香川のグルメを配信中！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！</p>
       <h2 id="shop-intruduce">2.店舗紹介</h2>
       <section class="card" id="cafeMANON">
         <img class="card-img" src="img/cafeMANON/S__59047953.jpg" alt="cafeMANON店の画像">
         <div class="card-content">
           <h1 class="card-title">cafeMANON</h1>
           <p class="card-text">【松山×カフェ】</p>
-          <div class="card-contact">
-            <table>
-              <tbody>
-                <tr>
-                  <th><span class="material-icons">location_on</span></th>
-                  <td><p class="card-text">〒790-0011<br>愛媛県松山市千舟町４丁目１−９</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">access_time</span></th>
-                  <td><p class="card-text">営業時間 11:30～16:30</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">date_range</span></th>
-                  <td><p class="card-text">定休日 不定休</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">phone</span></th>
-                  <td><p class="card-text">089-950-4683</p></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <p class="card-text">「cafe MANON」の店内はアンティーク調でとても目を惹かれます！</p>
+          <p class="card-text">品数豊富なランチはどれも美味しく、器の柄も様々で1つ1つにこだわりを感じます!</p>
+          <p class="card-text">ご飯を大盛りにしてくれるのも嬉しいポイントです！</p>
+          <p class="card-text">ランチの予約できます！</p>
         </div>
         <div class="card-link">
-          <a href="#">この店舗を詳しく見る</a>
+          <a href="cafeMANON.html">この店舗を詳しく見る</a>
         </div>
       </section>
       <section class="card" id="tsukihaku">
@@ -117,31 +101,12 @@
         <div class="card-content">
           <h1 class="card-title">御料理月白</h1>
           <p class="card-text">【松山×ランチ】</p>
-          <div class="card-contact">
-            <table>
-              <tbody>
-                <tr>
-                  <th><span class="material-icons">location_on</span></th>
-                  <td><p class="card-text">〒791-8034<br>愛媛県松山市富久町４２２−３</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">access_time</span></th>
-                  <td><p class="card-text">営業時間 11:30～15:00</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">date_range</span></th>
-                  <td><p class="card-text">定休日 水曜日</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">phone</span></th>
-                  <td><p class="card-text">089-910-4915</p></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <p class="card-text">『御料理 月白』は今年令和3年3月にオープンしたばかりの和食店！</p>
+          <p class="card-text">1日10食限定の手織り寿司の天色は見た目も味も最高級です！<br>好きな組み合わせで海苔に巻いて食べたりと食べ方も色々で楽しい！</p>
+          <p class="card-text">個室も多いのでこのご時世でも少し安心です！！予約をおすすめします。</p>
         </div>
         <div class="card-link">
-          <a href="#">この店舗を詳しく見る</a>
+          <a href="tsukihaku.html">この店舗を詳しく見る</a>
         </div>
       </section>
       <section class="card" id="monikodo2">
@@ -149,31 +114,12 @@
         <div class="card-content">
           <h1 class="card-title">もにこど2</h1>
           <p class="card-text">【伊予×カフェ】</p>
-          <div class="card-contact">
-            <table>
-              <tbody>
-                <tr>
-                  <th><span class="material-icons">location_on</span></th>
-                  <td><p class="card-text">〒799-3104<br>愛媛県伊予市上三谷２１７３−１</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">access_time</span></th>
-                  <td><p class="card-text">営業時間 11:00～18:00</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">date_range</span></th>
-                  <td><p class="card-text">定休日 月･火</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">phone</span></th>
-                  <td><p class="card-text">089-982-7640</p></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <p class="card-text">「もにこど2」は松山･伊予を一望できるカフェ！！</p>
+          <p class="card-text">種類豊富なおかずがお洒落な器で出てきて絶景を楽しみながら食べるこだわりランチは大人気なので予約必須です！</p>
+          <p class="card-text">三密対策もばっちりでテラス席もあり、密を避けたい外食にはオススメのお店です！</p>
         </div>
         <div class="card-link">
-          <a href="#">この店舗を詳しく見る</a>
+          <a href="monikodo2.html">この店舗を詳しく見る</a>
         </div>
       </section>
       <section class="card" id="91funaki">
@@ -181,31 +127,12 @@
         <div class="card-content">
           <h1 class="card-title">91funaki</h1>
           <p class="card-text">【新居浜×ランチ】</p>
-          <div class="card-contact">
-            <table>
-              <tbody>
-                <tr>
-                  <th><span class="material-icons">location_on</span></th>
-                  <td><p class="card-text">〒792-0856<br>愛媛県新居浜市船木２４５１</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">access_time</span></th>
-                  <td><p class="card-text">営業時間 11:00～21:00<br>※水曜日のみ11:00～17:00</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">date_range</span></th>
-                  <td><p class="card-text">定休日 木曜日</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">phone</span></th>
-                  <td><p class="card-text">0897-66-8960</p></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <p class="card-text">「91funaki」の店内はとてもおしゃれで癒し空間です！</p>
+          <p class="card-text">「91funaki」には小鉢ランチがあり、いろいろなおかずがちょっとずつ食べれて幸せです！</p>
+          <p class="card-text">国道11号線にありアクセスもいいのでおすすめです！！行ったことのない方はぜひ行ってみてください！</p>
         </div>
         <div class="card-link">
-          <a href="#">この店舗を詳しく見る</a>
+          <a href="91funaki.html">この店舗を詳しく見る</a>
         </div>
       </section>
       <section class="card" id="sorasito">
@@ -213,31 +140,12 @@
         <div class="card-content">
           <h1 class="card-title">そらしと珈琲</h1>
           <p class="card-text">【松山×ランチ】</p>
-          <div class="card-contact">
-            <table>
-              <tbody>
-                <tr>
-                  <th><span class="material-icons">location_on</span></th>
-                  <td><p class="card-text">〒791-8012<br>愛媛県松山市姫原３丁目１−３０</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">access_time</span></th>
-                  <td><p class="card-text">営業時間 09:00～23:00</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">date_range</span></th>
-                  <td><p class="card-text">定休日 木曜日</p></td>
-                </tr>
-                <tr>
-                  <th><span class="material-icons">phone</span></th>
-                  <td><p class="card-text">089-989-5509</p></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <p class="card-text">「そらしと珈琲」はモーニングから夜カフェまで1日中人気の絶えないお店です！</p>
+          <p class="card-text">白身魚のランチがとても美味しかった！！予約は必須です！！</p>
+          <p class="card-text">大通り沿いにありアクセスもよく、営業時間も長いのでお仕事帰りにもおすすめです！！</p>
         </div>
         <div class="card-link">
-          <a href="#">この店舗を詳しく見る</a>
+          <a href="sorashito.html">この店舗を詳しく見る</a>
         </div>
       </section>
     </div>
@@ -270,7 +178,7 @@
         </ul>
       </div>
     </div>
-    <p class="footer-copylight">Copyright (C) gameapp introduce</p>
+    <p class="footer-copylight">Copyright (C) okawarikun_cafe</p>
   </footer>
 
   <script src="js/main.js"></script>
