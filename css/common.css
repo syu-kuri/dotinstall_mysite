@@ -343,3 +343,10 @@ footer p {
     width: 250px;
   }
 }
+
+@media (min-width: 1300px) {
+  .aside {
+    display: block;
+    width: 300px;
+  }
+}
