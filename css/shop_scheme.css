@@ -13,7 +13,7 @@
 }
 
 .shop_scheme-card-title {
-  margin: 0;
+  margin: 8px 0;
 }
 
 .shop_schemeList {
@@ -21,11 +21,11 @@
   margin: 0 auto;
   padding: 0;
   width: 90%;
+  border-bottom: 1px solid #ccc;
 }
 
 .shop_scheme-item {
   padding: 0 8px;
-  border-bottom: 1px solid #ccc;
 }
 
 .shop_scheme-title {
