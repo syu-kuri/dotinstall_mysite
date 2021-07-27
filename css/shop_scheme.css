@@ -1,0 +1,74 @@
+.main {
+  margin: 16px 8px;
+  background: #eee;
+  border-radius: 16px;
+}
+
+.shop_scheme {
+  width: 95%;
+  margin: 8px auto;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.shop_scheme-card-title {
+  margin: 0;
+}
+
+.shop_schemeList {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+.shop_scheme-item {
+  padding: 0 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.shop_scheme-title {
+  font-weight: bold;
+  margin: auto 0;
+}
+
+.shop_scheme-data {
+  margin: 16px 0;
+}
+
+.shop_scheme-link a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: solid 1px #333;
+  padding: 8px;
+}
+
+@media (min-width: 600px) {
+  .shop_scheme-item {
+    display: flex;
+  }
+  .shop_scheme-item p {
+    margin-right: 8px;
+  }
+  .shop_scheme-item p + p {
+    margin-right: 8px;
+  }
+
+  .shop_scheme-title,
+  .shop_scheme-link {
+    width: 25%;
+  }
+  .shop_scheme-data {
+    width: 50%;
+  }
+  .shop_scheme-link {
+    text-align: center;
+    margin: auto 0;
+  }
+}
