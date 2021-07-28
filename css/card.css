@@ -35,8 +35,10 @@
 }
 .card-link {
   text-align: center;
+  margin: 0 auto;
   border-top: 1px solid #eee;
   padding: 20px;
+  font-size: 16px;
 }
 .card-link a {
   color: black;
@@ -50,6 +52,19 @@
 }
 .card-link a:hover {
   background-color: #6bb6ff;
+}
+
+.card-link p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-link table th,td {
+  font-size: 14px;
+}
+.card-link table span {
+  font-size: 14px;
 }
 
 /* レスポンシブ化 */
