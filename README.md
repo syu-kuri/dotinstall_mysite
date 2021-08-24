@@ -1,4 +1,4 @@
-# dotinstall_mysite
+# オリジナルサイトを制作しよう
 
 [サイトURL](https://syu-kuri.github.io/dotinstall_mysite/)
 
