@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <!-- 説明文等 -->
+  <meta name="description" content="ゲーマー大学生がプレイしているゲームについて紹介しているサイトです！！">
+  <meta name="keywords" content="ゲーマー,ゲーム,ゲーム紹介">
+  <meta http-equiv="content-language" content="ja">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>おかわりくん</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/card.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>ゲーム紹介サイト</h1>
+    </div>
+
+    <!-- ハンバーガーメニュー用アイコン -->
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+  </header>
+
+  <!-- PCメニュー -->
+  <div class="pc-menu">
+    <nav>
+      <ul class="pc-menu-item">
+        <li><a href="index.html" class="active" data-id="home">ホーム</a></li>
+        <li><a href="shop_scheme.html" data-id="scheme">店舗一覧</a></li>
+        <li><a href="introduce.html" data-id="service">自己紹介</a></li>
+        <li><a href="contact.html" data-id="contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ハンバーガーメニュー -->
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <h1>ゲーム紹介<br>サイト</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="shop_scheme.html">店舗一覧</a></li>
+        <li><a href="introduce.html">自己紹介</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <footer>
+        <p>Copyright (C) gameapp introduce</p>
+      </footer>
+    </nav>
+  </div>
+
+  <!-- コンテンツ -->
+  <div class="container">
+    <div class="main">
+      <h2>お問い合わせフォーム</h2>
+      <p class="attention">※現在は送信してもお問い合わせすることができません。</p>
+      <form action="" method="POST">
+        <p>姓</p>
+        <input type="text" placeholder="last name" required="required">
+        <p>名</p>
+        <input type="text" placeholder="fast name" required="required">
+        <p>メールアドレス</p>
+        <input type="mail" placeholder="mail" required="required">
+        <p>お問い合わせ内容</p>
+        <textarea type="text" placeholder="message" required="required"></textarea>
+        <input type="submit" value="送信">
+      </form>
+    </div>
+    <div class="aside">
+      <h3>カテゴリー</h3>
+      <ul>
+        <li><a href="Category/Ehime/ehime.html">愛媛県</a></li>
+        <ul>
+          <li><a href="#">東予</a></li>
+          <li><a href="#">中予</a></li>
+          <li><a href="#">南予</a></li>
+        </ul>
+        <li><a href="Category/Kagawa/kagawa.html">香川県</a></li>
+        <ul>
+          <li><a href="#">東讃</a></li>
+          <li><a href="#">中讃</a></li>
+          <li><a href="#">西讃</a></li>
+        </ul>
+        <li><a href="#">カフェ</a></li>
+        <li><a href="#">ランチ</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-menu">
+      <div class="footer-menu-item">
+        <p>カテゴリー</p>
+        <ul>
+          <li><a href="./Category/Ehime/ehime.html">愛媛県</a></li>
+          <li><a href="./Category/Kagawa/kagawa.html">香川県</a></li>
+          <li><a href="#">カフェ</a></li>
+          <li><a href="#">ランチ</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-item">
+        <p>その他コンテンツ</p>
+        <ul>
+          <li><a href="#">会社概要</a></li>
+          <li><a href="#">採用情報</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-item">
+        <ul>
+          <li><a href="#">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copylight">Copyright (C) gameapp introduce</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

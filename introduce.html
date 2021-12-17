@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <!-- 説明文等 -->
+  <meta name="description" content="最新＆おしゃれな愛媛･香川のグルメを配信中！！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！">
+  <meta name="keywords" content="愛媛県,香川県,おしゃれなお店,カフェ,cafe">
+  <meta http-equiv="content-language" content="ja">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>おかわりくん</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/card.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>ゲーム紹介サイト</h1>
+    </div>
+
+    <!-- ハンバーガーメニュー用アイコン -->
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+  </header>
+
+  <!-- PCメニュー -->
+  <div class="pc-menu">
+    <nav>
+      <ul class="pc-menu-item">
+        <li><a href="index.html" class="active" data-id="home">ホーム</a></li>
+        <li><a href="shop_scheme.html" data-id="scheme">店舗一覧</a></li>
+        <li><a href="introduce.html" data-id="service">自己紹介</a></li>
+        <li><a href="contact.html" data-id="contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ハンバーガーメニュー -->
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <h1>ゲーム紹介<br>サイト</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="shop_scheme.html">店舗一覧</a></li>
+        <li><a href="introduce.html">自己紹介</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+      <footer>
+        <p>Copyright (C) gameapp introduce</p>
+      </footer>
+    </nav>
+  </div>
+
+  <!-- コンテンツ -->
+  <div class="container">
+    <div class="main">
+      <div class="main-header">
+        <h1>プロフィール</h1>
+      </div>
+      <section class="card">
+        <img class="card-img" src="img/自己紹介/プログラマー.png" alt="サイト制作者のプロフィール画像" loading=”lazy”>
+        <div class="card-content">
+          <h1 class="card-title">サイト作成者</h1>
+          <p class="card-text">現在大学生の初心者プログラマです。</p>
+        </div>
+        <div class="card-link">
+          <p>スキル</p>
+          <table>
+            <tr>
+              <th>HTML</th>
+              <td><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_outline</span></td>
+            </tr>
+            <tr>
+              <th>CSS</th>
+              <td><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_outline</span><span class="material-icons">star_outline</span></td>
+            </tr>
+              <th>JavaScript</th>
+              <td><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star_outline</span><span class="material-icons">star_outline</span></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="card">
+        <img class="card-img" src="img/自己紹介/人アイコン.png" alt="おかわりくんの画像" loading=”lazy”>
+        <div class="card-content">
+          <h1 class="card-title">おかわりくん</h1>
+          <p class="card-text">おかわりくんを運営している人です。</p>
+          <p class="card-text">おいしいお店をどんどん紹介したいと思ってます！</p>
+        </div>
+        <div class="card-link">
+
+        </div>
+      </section>
+    </div>
+    <div class="aside">
+      <h3>カテゴリー</h3>
+      <ul>
+        <li><a href="Category/Ehime/ehime.html">愛媛県</a></li>
+        <ul>
+          <li><a href="#">東予</a></li>
+          <li><a href="#">中予</a></li>
+          <li><a href="#">南予</a></li>
+        </ul>
+        <li><a href="Category/Kagawa/kagawa.html">香川県</a></li>
+        <ul>
+          <li><a href="#">東讃</a></li>
+          <li><a href="#">中讃</a></li>
+          <li><a href="#">西讃</a></li>
+        </ul>
+        <li><a href="#">カフェ</a></li>
+        <li><a href="#">ランチ</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-menu">
+      <div class="footer-menu-item">
+        <p>カテゴリー</p>
+        <ul>
+          <li><a href="./Category/Ehime/ehime.html">愛媛県</a></li>
+          <li><a href="./Category/Kagawa/kagawa.html">香川県</a></li>
+          <li><a href="#">カフェ</a></li>
+          <li><a href="#">ランチ</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-item">
+        <p>その他コンテンツ</p>
+        <ul>
+          <li><a href="#">会社概要</a></li>
+          <li><a href="#">採用情報</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-item">
+        <ul>
+          <li><a href="#">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copylight">Copyright (C) gameapp introduce</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

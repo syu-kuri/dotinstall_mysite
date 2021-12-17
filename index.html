@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <!-- 説明文等 -->
+  <meta name="description" content="最新＆おしゃれな愛媛･香川のグルメを配信中！！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！">
+  <meta name="keywords" content="愛媛県,香川県,おしゃれなお店,カフェ,cafe">
+  <meta http-equiv="content-language" content="ja">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>おかわりくん</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/card.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N37JWCJ722"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-N37JWCJ722');
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>okawarikun_cafe</h1>
+    </div>
+    <a href="https://www.instagram.com/okawarikun__cafe/"><i class="fab fa-instagram fa-2x my-color"></i></a>
+
+    <!-- ハンバーガーメニュー用アイコン -->
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+  </header>
+
+  <!-- PCメニュー -->
+  <div class="pc-menu">
+    <nav>
+      <ul class="pc-menu-item">
+        <li><a href="index.html" class="active" data-id="home">ホーム</a></li>
+        <li><a href="shop_scheme.html" data-id="scheme">店舗一覧</a></li>
+        <li><a href="introduce.html" data-id="service">自己紹介</a></li>
+        <li><a href="contact.html" data-id="contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ハンバーガーメニュー -->
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <h1>okawarikun<br>cafe</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="shop_scheme.html">店舗一覧</a></li>
+        <li><a href="introduce.html">自己紹介</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+        <li class="overlay-sns"><a href="https://www.instagram.com/okawarikun__cafe/"><i class="fab fa-instagram fa-2x my-color"></i></a></li>
+      </ul>
+      <footer>
+        <p>Copyright (C) okawarikun_cafe</p>
+      </footer>
+    </nav>
+  </div>
+
+  <!-- コンテンツ -->
+  <div class="container">
+    <div class="main">
+      <!-- 目次 -->
+      <div class="contents" id="contents">
+        <div class="contents-p">
+          <p>目次</p>
+          <p class="active" id="contents-open">[表示]</p>
+          <p id="contents-close">[非表示]</p>
+        </div>
+        <ul class="active" id="contents-ul">
+          <li><a href="#site-summary">1.サイト概要</a></li>
+          <li><a href="#shop-intruduce">2.店舗紹介</a></li>
+            <ol>
+              <li><a href="#cafeMANON">2-1.cafeMANON</a></li>
+              <li><a href="#tsukihaku">2-2.御料理月白</a></li>
+              <li><a href="#monikodo2">2-3.もにこど2</a></li>
+              <li><a href="#91funaki">2-4.91funaki</a></li>
+              <li><a href="#sorasito">2-4.そらしと珈琲</a></li>
+            </ol>
+        </ul>
+      </div>
+      <h2 id="site-summary">1.サイト概要</h2>
+      <p class="summary-text">最新＆おしゃれな愛媛･香川のグルメを配信中！愛媛と香川のおしゃれなお店巡りで美味しかったお店を紹介しています！</p>
+      <h2 id="shop-intruduce">2.店舗紹介</h2>
+      <section class="card" id="cafeMANON">
+        <img class="card-img" src="img/cafeMANON/S__59047953.jpg" alt="cafeMANON店の画像" loading=”lazy”>
+        <div class="card-content">
+          <h1 class="card-title">cafeMANON</h1>
+          <p class="card-text">【松山×カフェ】</p>
+          <p class="card-text">「cafe MANON」の店内はアンティーク調でとても目を惹かれます！</p>
+          <p class="card-text">品数豊富なランチはどれも美味しく、器の柄も様々で1つ1つにこだわりを感じます!</p>
+          <p class="card-text">ご飯を大盛りにしてくれるのも嬉しいポイントです！</p>
+          <p class="card-text">ランチの予約できます！</p>
+        </div>
+        <div class="card-link">
+          <a href="./shops/cafeMANON.html">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="tsukihaku">
+        <img class="card-img" src="img/御料理月白/S__59047958.jpg" alt="御料理月白店の画像" loading=”lazy”>
+        <div class="card-content">
+          <h1 class="card-title">御料理月白</h1>
+          <p class="card-text">【松山×ランチ】</p>
+          <p class="card-text">『御料理 月白』は今年令和3年3月にオープンしたばかりの和食店！</p>
+          <p class="card-text">1日10食限定の手織り寿司の天色は見た目も味も最高級です！<br>好きな組み合わせで海苔に巻いて食べたりと食べ方も色々で楽しい！</p>
+          <p class="card-text">個室も多いのでこのご時世でも少し安心です！！予約をおすすめします。</p>
+        </div>
+        <div class="card-link">
+          <a href="./shops/tsukihaku.html">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="monikodo2">
+        <img class="card-img" src="img/もにこど2/S__59047965.jpg" alt="もにこど2店の画像" loading=”lazy”>
+        <div class="card-content">
+          <h1 class="card-title">もにこど2</h1>
+          <p class="card-text">【伊予×カフェ】</p>
+          <p class="card-text">「もにこど2」は松山･伊予を一望できるカフェ！！</p>
+          <p class="card-text">種類豊富なおかずがお洒落な器で出てきて絶景を楽しみながら食べるこだわりランチは大人気なので予約必須です！</p>
+          <p class="card-text">三密対策もばっちりでテラス席もあり、密を避けたい外食にはオススメのお店です！</p>
+        </div>
+        <div class="card-link">
+          <a href="./shops/monikodo2.html">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="91funaki">
+        <img class="card-img" src="img/91funaki/S__59047977.jpg" alt="91funaki店の画像" loading=”lazy”>
+        <div class="card-content">
+          <h1 class="card-title">91funaki</h1>
+          <p class="card-text">【新居浜×ランチ】</p>
+          <p class="card-text">「91funaki」の店内はとてもおしゃれで癒し空間です！</p>
+          <p class="card-text">「91funaki」には小鉢ランチがあり、いろいろなおかずがちょっとずつ食べれて幸せです！</p>
+          <p class="card-text">国道11号線にありアクセスもいいのでおすすめです！！行ったことのない方はぜひ行ってみてください！</p>
+        </div>
+        <div class="card-link">
+          <a href="./shops/91funaki.html">この店舗を詳しく見る</a>
+        </div>
+      </section>
+      <section class="card" id="sorasito">
+        <img class="card-img" src="img/そらしと珈琲/S__59047970.jpg" alt="そらしと珈琲店の画像" loading=”lazy”>
+        <div class="card-content">
+          <h1 class="card-title">そらしと珈琲</h1>
+          <p class="card-text">【松山×ランチ】</p>
+          <p class="card-text">「そらしと珈琲」はモーニングから夜カフェまで1日中人気の絶えないお店です！</p>
+          <p class="card-text">白身魚のランチがとても美味しかった！！予約は必須です！！</p>
+          <p class="card-text">大通り沿いにありアクセスもよく、営業時間も長いのでお仕事帰りにもおすすめです！！</p>
+        </div>
+        <div class="card-link">
+          <a href="./shops/sorashito.html">この店舗を詳しく見る</a>
+        </div>
+      </section>
+    </div>
+    <div class="aside">
+      <h3>カレンダー</h3>
+      <table class="calender">
+        <thead>
+          <tr>
+            <th id="prev">&laquo;</th>
+            <th id="title" colspan="5">2020/05</th>
+            <th id="next">&raquo;</th>
+          </tr>
+          <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td id="today" colspan="7">Today</td>
+          </tr>
+        </tfoot>
+      </table>
+      <h3>カテゴリー</h3>
+      <ul>
+        <li><a href="Category/Ehime/ehime.html">愛媛県</a></li>
+        <ul>
+          <li><a href="#">東予</a></li>
+          <li><a href="#">中予</a></li>
+          <li><a href="#">南予</a></li>
+        </ul>
+        <li><a href="Category/Kagawa/kagawa.html">香川県</a></li>
+        <ul>
+          <li><a href="#">東讃</a></li>
+          <li><a href="#">中讃</a></li>
+          <li><a href="#">西讃</a></li>
+        </ul>
+        <li><a href="#">カフェ</a></li>
+        <li><a href="#">ランチ</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-menu">
+      <div class="footer-menu-item">
+        <p>カテゴリー</p>
+        <ul>
+          <li><a href="./Category/Ehime/ehime.html">愛媛県</a></li>
+          <li><a href="./Category/Kagawa/kagawa.html">香川県</a></li>
+          <li><a href="#">カフェ</a></li>
+          <li><a href="#">ランチ</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-item">
+        <p>その他のコンテンツ</p>
+        <ul>
+          <li><a href="#">会社概要</a></li>
+          <li><a href="#">採用情報</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="footer-menu-item">
+        <ul>
+          <li><a href="#">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copylight">Copyright (C) okawarikun_cafe</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

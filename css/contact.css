@@ -1,0 +1,56 @@
+.main {
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 8px;
+}
+
+form {
+  margin: auto;
+  width: 80%;
+}
+
+.main form p {
+  margin: 8px 8px 0 8px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.main .attention {
+  color: red;
+  width: 100%;
+}
+
+.main form input,
+.main form textarea {
+  width: 80%;
+  margin: 8px;
+}
+
+.main form textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  background: #000066;
+  color: #ffffff;
+  line-height: 1em;
+  opacity: 1;
+  transition: .3s;
+  box-shadow: 6px 6px 3px #666666;
+  border: 2px solid #000066;
+}
+
+input[type="submit"]:hover {
+  box-shadow: none;
+  opacity: 0.8;
+}
+
+@media (min-width: 600px) {
+  .main form textarea {
+    height: 300px;
+  }
+}
